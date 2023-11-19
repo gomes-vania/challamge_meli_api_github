@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Card from "./components/Card/Card";
 import User from "./components/User/User";
+import "./components/User/User.scss";
 
 interface UserResponse {
   avatar_url: string;
